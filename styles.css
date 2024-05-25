@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffbe98;
+    display: flex;
+    justify-content: center; /* Center the content horizontally*/
+    align-items: center; /* Center the content vertically*/
+    flex-direction: column; /* Arranges the children of the body in a column*/
+    height: 100vh;
+    background-color: #fee3ec;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+label {
+    font-size: 18px;
+    color: #2b4735;
+    font-weight: bold;
+}
+
+#guess-game-container, #game-container {
+    text-align: center;
+}
+
+#board {
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex; /* Use flexbox to control spacing more precisely */
+    gap: 10px;
+    justify-content: center;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    background-color: #c2dad6;
+    border: 2px solid #9ccfce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    font-size: 18px;
+    padding: 5px;
+    width: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #c2dad6;
+    border: 2px solid #9ccfce; 
+    border-radius: 5px;
+}
+
+#guess-game-container label {
+    margin-right: 10px; /* Space between label and input */
+}

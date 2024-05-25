@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Wordle Game</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id = "guess-game-container">
+            <h1>Hello Gorg</h1>
+            <p>my name is Wordle</p>
+            <h2>Let's play a game!</h2>
+            <label for = "number-guesses">enter number of guesses: 
+                <input id = "number-guesses" type = "number" min = 1 max = 5 required>
+            </label>
+        </div>
+        <div id = "game-container" style = "display: none">
+            <h1>Wordle board</h1>
+            <div id = "board">
+            <!-- Logic for board display and game -->
+            </div>
+            <input type= "text" id = "user-guess" maxlength="5" placeholder="Enter your guess" required>
+        <script src="script.js"></script>
+    </body>
+</html>
