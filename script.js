@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.key == 'Enter') {
             const numOfGuesses = parseInt(guessNumberInput.value);
 
-        if (numOfGuesses < 1 || numOfGuesses > 5 || isNaN(numOfGuesses)) {
-            alert('Number of guesses should be between 1 and 5 (inclusive)');
+        if (numOfGuesses < 1 || numOfGuesses > 6 || isNaN(numOfGuesses)) {
+            alert('Number of guesses should be between 1 and 6 (inclusive)');
             return;
         }
 
